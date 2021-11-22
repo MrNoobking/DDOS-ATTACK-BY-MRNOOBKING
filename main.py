@@ -24,8 +24,11 @@ elif sys.platform.startswith("freebsd"): # C0d3d by Sn8ow
 else: # C0d3d by Sn8ow
 	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # C0d3d by Sn8ow
 
-os.system("cls")
-os.system("title MR NOOBKING DDOS SERVICE")
+def clear():
+	if os.name == 'nt':
+		os.system('cls')
+	else:
+		os.system('clear')
 
 def slowprint(s):
     for c in s + '\n':
