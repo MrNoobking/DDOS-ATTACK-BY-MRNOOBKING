@@ -1,3 +1,4 @@
 PySocks
 requests
 urllib3
+bs4
