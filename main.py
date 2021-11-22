@@ -25,10 +25,7 @@ else: # C0d3d by Sn8ow
 	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # C0d3d by Sn8ow
 
 def clear():
-	if os.name == 'nt':
-		os.system('cls')
-	else:
-		os.system('clear')
+    os.system('cls||clear')
 
 def slowprint(s):
     for c in s + '\n':
