@@ -15,12 +15,12 @@ from colorama import Fore
 from bs4 import BeautifulSoup
 
 import logging
-logging.getLogger("scapy.runtime").setLevel(logging.ERROR) # C0d3d by Sn8ow
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
-if sys.platform.startswith("linux"): # C0d3d by Sn8ow
-	from scapy.all import * # C0d3d by Sn8ow
-elif sys.platform.startswith("freebsd"): # C0d3d by Sn8ow
-	from scapy.all import * # C0d3d by Sn8ow
+if sys.platform.startswith("linux"): 
+	from scapy.all import * 
+elif sys.platform.startswith("freebsd"): 
+	from scapy.all import * 
 else: # C0d3d by Sn8ow
 	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # C0d3d by Sn8ow
 
@@ -84,7 +84,7 @@ useragents=["Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
                                                 "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)",]
 
 
-def starturl(): # C0d3d by Sn8ow
+def starturl(): 
 	global url
 	global url2
 	global urlport
